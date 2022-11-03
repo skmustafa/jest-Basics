@@ -1,0 +1,19 @@
+{
+  "name": "jest-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test-watch": "jest --watchAll",
+    "test-verbose": "jest --verbose",
+    "test-coverage": "jest --coverage",
+    "test-fat": "jest --watchAll --coverage"
+  },
+  "author": "Mohammed Mustafa",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^29.2.0",
+    "jest": "^29.2.1"
+  }
+}
